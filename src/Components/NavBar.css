@@ -1,0 +1,73 @@
+/* navigation bar */
+
+.nav-bar {
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30rem;
+  align-items: center;
+  background: var(--primary-color);
+  box-shadow: 2px 5px 20px rgb(230, 230, 230);
+}
+.logo {
+  max-width: 80px;
+  background-color: transparent;
+}
+.nav-lists {
+  display: flex;
+  gap: 2rem;
+  background-color: transparent;
+}
+.nav-link {
+  background-color: black;
+}
+.nav-link > a {
+  color: var(--link-color);
+  font-size: var(--text-size);
+  transition: color var(--transition);
+}
+.nav-link > a:hover {
+  color: var(--link-color-hover);
+}
+.nav-toggle {
+  display: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-bar {
+    padding: 0.5rem 5rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .logo {
+    max-width: 80px;
+  }
+  .nav-bar {
+    padding: 0.5rem 1.5rem;
+    flex-wrap: wrap;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .nav-lists {
+    height: 0;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 2rem;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+  .nav-lists.active {
+    height: 100vh;
+    margin-top: 2rem;
+  }
+}

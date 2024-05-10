@@ -1,0 +1,12 @@
+const Service = () => {
+  return (
+    <div>
+      <h1 style={{ fontSize: "3rem", marginTop: "9rem", marginBottom: "4rem" }}>
+        Hello Service Pages!
+      </h1>
+      <p style={{ fontSize: "2rem"}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium ex, nulla ab minus quam dicta obcaecati maiores accusantium, perspiciatis fugit dolor porro asperiores! Dolorem sit enim, quidem fugit nam distinctio tempora! Cumque et laboriosam voluptatem incidunt facilis commodi, odit quae earum quod dignissimos eum sed quas accusamus nihil eos voluptates? Mollitia quasi cumque cum quis corrupti, architecto quaerat autem deleniti accusantium! Ea dolore natus velit in repudiandae eligendi. Quam excepturi illum totam quo voluptates ea quisquam nesciunt vero fuga ipsum aperiam praesentium optio quibusdam impedit, distinctio fugiat numquam reprehenderit aliquam quae magni, dolor culpa sunt unde. Ad fuga earum explicabo ipsa odio maxime minus eveniet harum odit, vel optio ducimus cum, et nam illo molestiae? Repudiandae facere saepe possimus velit error? Quos tenetur consequuntur quia possimus in. Reiciendis saepe, unde assumenda aliquid sequi eveniet, dolorum quo fugit nostrum officiis iure quam perspiciatis! Nihil modi nostrum, eaque quo aut dignissimos vel reprehenderit id quis, facilis distinctio perspiciatis fuga, maiores a? Labore, at facere! Ea iure facilis dolor deserunt maxime, animi, cumque autem sunt perferendis suscipit, pariatur odit doloribus neque rem numquam ex? Ex fugiat corporis vel impedit quaerat animi rerum voluptatibus deleniti, eum voluptas magnam eveniet aliquam. Numquam quis at obcaecati sint culpa temporibus deserunt aliquid, amet facilis voluptates repellat dolore, adipisci nisi nesciunt tenetur totam. Provident, harum dicta at quia tenetur quos distinctio omnis eveniet quas cum et! Quibusdam, veniam! Corrupti rem cupiditate consequuntur distinctio a vitae commodi, iure ab nostrum labore recusandae. Ipsam repellendus at aliquam mollitia! Aut accusamus vitae aperiam est? Impedit a, reiciendis nihil iure perferendis, tempore recusandae, similique odit nobis sit beatae doloribus. Voluptates quas repudiandae porro dolorum eveniet, amet enim. Nesciunt est perferendis repellendus excepturi commodi sapiente minus ad officia repellat! Enim perferendis a nam id dolores, rem numquam libero! Nostrum sapiente magni debitis iure!</p>
+    </div>
+  );
+};
+
+export default Service;

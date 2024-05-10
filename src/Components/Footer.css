@@ -1,0 +1,39 @@
+.haha{
+    width: 100%;
+    height: 7rem;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--primary-color);
+    box-shadow: 2px 5px 20px rgb(230, 230, 230);
+    margin-top: 6rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  .the-footer{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--link-color);
+    font-size: var(--text-size);
+    background-color: transparent;
+  }
+  .footer-line{
+    background-color: white;
+    width: 0.5rem;
+    height: 100%;
+    box-shadow: 2px 5px 20px rgb(230, 230, 230);
+  }
+  .the-footer1{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--link-color);
+    font-size: var(--text-size);
+    background-color: transparent;
+  }

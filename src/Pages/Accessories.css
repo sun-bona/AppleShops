@@ -1,0 +1,275 @@
+.title {
+  font-size: 3rem;
+  margin: 9rem 0 0 15rem;
+  font-weight: normal;
+}
+.A-heading {
+  width: 100%;
+  color: black;
+  margin: 8rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.box1 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+}
+.box1 img {
+  max-width: 80%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 50px;
+  border-radius: 7%;
+}
+.box2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.box2-h2 {
+  width: 70%;
+}
+.box2-p {
+  width: 70%;
+}
+.box2-span {
+  width: 70%;
+}
+.box2-h2 h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 60px;
+  margin-bottom: 0.5rem;
+}
+.box2-p p {
+  font-size: 3rem;
+  font-weight: normal;
+  line-height: 30px;
+  margin: 2rem 0;
+}
+.box2-span a {
+  background-color: transparent;
+  font-size: 2rem;
+  color: aqua;
+}
+#text-on-search {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0 0 2rem 0;
+  font-weight: 600;
+}
+.search {
+  width: 480px;
+  height: 50px;
+  border: solid rgb(114, 112, 109) 0.2rem;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  transition: all 0.7s;
+}
+.search:hover {
+  box-shadow: 2px 5px 20px rgb(230, 230, 230);
+}
+.search > input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 0 1rem;
+}
+.search > input:focus {
+  outline: none;
+}
+.search-icon {
+  margin: auto 0 auto 1.5rem;
+}
+.item {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 3rem 0;
+  border-top: solid rgb(142, 142, 142) 0.1rem;
+  border-bottom: solid rgb(142, 142, 142) 0.1rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+.item1 {
+  overflow: hidden;
+  max-width: 80%;
+  height: 240px;
+  margin: 0 auto;
+  padding: 3rem 0;
+  border-top: solid rgb(142, 142, 142) 0.1rem;
+  border-bottom: solid rgb(142, 142, 142) 0.1rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  transition: all 1s;
+}
+
+.item > a:hover {
+  text-decoration: underline;
+  color: rgb(255, 153, 0);
+  p{
+    transform: scale(1.2);
+    color: rgb(255, 153, 0);
+  }
+}
+.item1 > a:hover {
+  text-decoration: underline;
+  color: rgb(255, 153, 0);
+  p{
+    transform: scale(1.2);
+    color: rgb(255, 153, 0);
+  }
+}
+
+.item-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.item-info {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: solid rgb(142, 142, 142) 0.1rem;
+}
+.name {
+  font-size: 2rem;
+  margin-top: 1rem;
+  transition: all 0.5s;
+}
+
+/* button hide show */
+
+.bt {
+  width: 170px;
+  height: 50px;
+  margin: 2.5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(142, 142, 142);
+  border-radius: 20px;
+  transition: all 0.7s;
+  background-color: transparent;
+}
+.bt > button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  color: aqua;
+  font-size: 2rem;
+}
+.bt:hover {
+  transform: scale(1.2);
+  box-shadow: 2px 5px 20px rgb(230, 230, 230);
+}
+
+
+/* This for block sound */
+
+#text-on-Sound{
+  font-size: 3rem;
+  text-align: center;
+  margin: 8rem 0 4rem 0;
+  font-weight: 700;
+}
+
+/* for screen 900px */
+@media screen and (max-width: 900px) {
+  .item {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .item1 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* for screen 600px */
+@media screen and (max-width: 600px) {
+  .search {
+    width: 320px;
+  }
+  .box2-h2 h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 40px;
+  }
+  .box2-p p {
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 20px;
+    margin: 1rem 0;
+  }
+  .box2-span a {
+    background-color: transparent;
+    font-size: 1.7rem;
+    color: aqua;
+  }
+  .box1 img {
+    max-width: 110%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 50px;
+    border-radius: 7%;
+  }
+  .item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .item1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+.card-sound-container{
+  margin: 0 auto;
+  max-width: 85%;
+}
+.card-sound{
+  display: flex;
+  height: 430px;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 2rem 2rem 2rem; 
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: rgb(33, 33, 33);
+  margin-right: 1rem;
+}
+.card-sound > img{
+  max-width: 250px;
+  padding: 0 0.5rem;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+.down-img{
+  color: rgb(255, 153, 0);
+  font-size: 1.5rem;
+  background-color: transparent;
+}
+.detail-sound{
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  padding: 1rem 0;
+  background-color: transparent;
+}
+.price-sound{
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  background-color: transparent;
+}

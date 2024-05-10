@@ -1,0 +1,26 @@
+.product-heading {
+    font-size: var(--text-heading);
+    text-align: center;
+    margin: 15rem 0 5rem 0;
+  }
+  
+  .card-container {
+    margin: 0 auto;
+    max-width: 1024px;
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  @media screen and (max-width: 950px) {
+    .card-container {
+      padding: 0 2rem;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .card-container {
+      padding: 0 2.5rem;
+      grid-template-columns: 1fr;
+    }
+  }

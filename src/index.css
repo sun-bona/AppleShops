@@ -1,0 +1,31 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 62.5%;
+  --primary-color: rgb(0, 0, 0);
+  --secondary-color: #626262;
+  --accent-color: white;
+  --link-color: #effeff;
+  --link-color-hover: #d2fbff;
+  --text-size: 2.5rem;
+  --text-heading: 3.5rem;
+  --text-heading-small: 3rem;
+  --transition: ease 0.15s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  background-color: black;
+}
